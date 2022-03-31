@@ -6,16 +6,14 @@
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -307.0
-margin_bottom = 686.0
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="1full" type="Sprite" parent="."]
-position = Vector2( 197, 435 )
-scale = Vector2( 0.561111, 0.619531 )
+position = Vector2( 200.5, 399.75 )
+scale = Vector2( 0.551389, 0.621484 )
 texture = ExtResource( 2 )
 
 [node name="TextureButton" type="TextureButton" parent="1full"]
@@ -27,4 +25,36 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="TextureButton2" type="TextureButton" parent="1full"]
+margin_left = -134.0
+margin_top = -16.0
+margin_right = 128.0
+margin_bottom = 56.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton3" type="TextureButton" parent="1full"]
+margin_left = -134.0
+margin_top = 142.0
+margin_right = 132.0
+margin_bottom = 210.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureButton4" type="TextureButton" parent="1full"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -128.0
+margin_top = 289.0
+margin_right = -579.0
+margin_bottom = -920.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [connection signal="pressed" from="1full/TextureButton" to="." method="_on_TextureButton_pressed"]
+[connection signal="pressed" from="1full/TextureButton2" to="." method="_on_TextureButton2_pressed"]
+[connection signal="pressed" from="1full/TextureButton3" to="." method="_on_TextureButton3_pressed"]
+[connection signal="pressed" from="1full/TextureButton4" to="." method="_on_TextureButton4_pressed"]
