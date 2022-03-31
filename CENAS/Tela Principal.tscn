@@ -7,12 +7,9 @@
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="1full" type="Sprite" parent="."]
-position = Vector2( 200.5, 399.75 )
+position = Vector2( 199, 398 )
 scale = Vector2( 0.551389, 0.621484 )
 texture = ExtResource( 2 )
 
