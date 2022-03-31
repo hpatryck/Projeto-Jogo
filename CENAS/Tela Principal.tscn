@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://CENAS/Tela Principal.gd" type="Script" id=1]
+[ext_resource path="res://Telas/1.full.jpeg" type="Texture" id=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -307.0
+margin_bottom = 686.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1full" type="Sprite" parent="."]
+position = Vector2( 197, 435 )
+scale = Vector2( 0.561111, 0.619531 )
+texture = ExtResource( 2 )
+
+[node name="TextureButton" type="TextureButton" parent="1full"]
+margin_left = -124.0
+margin_top = -140.0
+margin_right = 114.0
+margin_bottom = -74.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="1full/TextureButton" to="." method="_on_TextureButton_pressed"]
