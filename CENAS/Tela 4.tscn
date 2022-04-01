@@ -6,14 +6,12 @@
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_top = -3.0
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="4full" type="Sprite" parent="."]
-position = Vector2( 198.5, 398 )
-scale = Vector2( 0.551389, 0.620312 )
+position = Vector2( 200.5, 396 )
+scale = Vector2( 0.556944, 0.623437 )
 texture = ExtResource( 1 )
 
 [node name="TextureButton" type="TextureButton" parent="4full"]
